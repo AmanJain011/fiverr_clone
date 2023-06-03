@@ -1,13 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export class PopularServices extends Component {
-  render() {
-    return (
-      <div>
-        
-      </div>
-    )
-  }
+function PopularServices() {
+  return (
+    <div>
+      PopularServices
+    </div>
+  )
 }
 
 export default PopularServices
