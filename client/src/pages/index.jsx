@@ -8,6 +8,7 @@ import Everything from '@/components/Landing/Everything'
 import Services from '@/components/Landing/Services'
 import FiverrBusiness from '@/components/Landing/FiverrBusiness'
 import JoinFiverr from '@/components/Landing/JoinFiverr'
+import AuthWrapper from '@/components/AuthWrapper'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +22,7 @@ export default function Home() {
       <Services/>
       <FiverrBusiness/>
       <JoinFiverr/>
+      <AuthWrapper/>
     </div>
   )
 }
